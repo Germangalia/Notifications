@@ -38,11 +38,11 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 10
         targetSdkVersion 23
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
-                                onesignal_app_id: "b2f7f966-d8cc-11e4-bed1-df8f05be55ba",
-                                onesignal_google_project_number: "703322744261"]
+                                onesignal_app_id: "60d7c430-7c02-4499-9140-3d0c6cba98f0",
+                                onesignal_google_project_number: "279583205037 "]
     }
 
     compileOptions {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Android BasicNotifications Sample
 ===================================
@@ -99,3 +100,6 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+=======
+# Notifications
+>>>>>>> b7c25460144998338815d73dd23407c2268e2f6d

@@ -17,6 +17,22 @@ MERGED from com.android.support:support-v4:23.1.0:22:5
 MERGED from com.android.support:gridlayout-v7:23.1.0:22:5
 MERGED from com.android.support:support-v4:23.1.0:22:5
 MERGED from com.android.support:cardview-v7:23.1.0:22:5
+MERGED from com.onesignal:OneSignal:2.0.8:28:5
+MERGED from com.google.android.gms:play-services-gcm:8.4.0:24:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-measurement:8.4.0:26:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-analytics:8.4.0:24:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-location:8.4.0:19:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:27:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:28:9
 	android:allowBackup
@@ -25,31 +41,183 @@ MERGED from com.android.support:cardview-v7:23.1.0:22:5
 		ADDED from AndroidManifest.xml:27:9
 	android:theme
 		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:30:9
 activity#com.example.android.basicnotifications.MainActivity
-ADDED from AndroidManifest.xml:30:9
+ADDED from AndroidManifest.xml:31:9
 	android:label
+		ADDED from AndroidManifest.xml:33:13
+	android:name
 		ADDED from AndroidManifest.xml:32:13
-	android:name
-		ADDED from AndroidManifest.xml:31:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:33:13
+ADDED from AndroidManifest.xml:34:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:34:17
-	android:name
-		ADDED from AndroidManifest.xml:34:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:35:17
 	android:name
-		ADDED from AndroidManifest.xml:35:27
+		ADDED from AndroidManifest.xml:35:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:36:17
+	android:name
+		ADDED from AndroidManifest.xml:36:27
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:support-v4:23.1.0:20:5
 MERGED from com.android.support:gridlayout-v7:23.1.0:20:5
 MERGED from com.android.support:support-v4:23.1.0:20:5
 MERGED from com.android.support:cardview-v7:23.1.0:20:5
+MERGED from com.onesignal:OneSignal:2.0.8:5:5
+MERGED from com.google.android.gms:play-services-gcm:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-measurement:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-analytics:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-location:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:26:5
+MERGED from com.google.android.gms:play-services-base:8.4.0:18:5
+MERGED from com.google.android.gms:play-services-basement:8.4.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+permission#${manifestApplicationId}.permission.C2D_MESSAGE
+ADDED from com.onesignal:OneSignal:2.0.8:10:5
+	android:protectionLevel
+		ADDED from com.onesignal:OneSignal:2.0.8:12:9
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:11:9
+uses-permission#${manifestApplicationId}.permission.C2D_MESSAGE
+ADDED from com.onesignal:OneSignal:2.0.8:14:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:14:22
+uses-permission#android.permission.INTERNET
+ADDED from com.onesignal:OneSignal:2.0.8:17:5
+MERGED from com.google.android.gms:play-services-gcm:8.4.0:22:5
+MERGED from com.google.android.gms:play-services-measurement:8.4.0:21:5
+MERGED from com.google.android.gms:play-services-analytics:8.4.0:21:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:21:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:17:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from com.onesignal:OneSignal:2.0.8:18:5
+MERGED from com.google.android.gms:play-services-gcm:8.4.0:21:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:18:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from com.onesignal:OneSignal:2.0.8:20:5
+MERGED from com.google.android.gms:play-services-measurement:8.4.0:24:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:20:22
+uses-permission#android.permission.VIBRATE
+ADDED from com.onesignal:OneSignal:2.0.8:25:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:25:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from com.onesignal:OneSignal:2.0.8:26:5
+MERGED from com.google.android.gms:play-services-measurement:8.4.0:22:5
+MERGED from com.google.android.gms:play-services-analytics:8.4.0:22:5
+MERGED from com.google.android.gms:play-services-maps:8.4.0:20:5
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:26:22
+meta-data#onesignal_app_id
+ADDED from com.onesignal:OneSignal:2.0.8:29:9
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:30:13
+	android:value
+		ADDED from com.onesignal:OneSignal:2.0.8:31:13
+meta-data#onesignal_google_project_number
+ADDED from com.onesignal:OneSignal:2.0.8:32:9
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:33:13
+	android:value
+		ADDED from com.onesignal:OneSignal:2.0.8:34:13
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from com.onesignal:OneSignal:2.0.8:36:9
+	android:permission
+		ADDED from com.onesignal:OneSignal:2.0.8:38:13
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:37:13
+intent-filter#${manifestApplicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from com.onesignal:OneSignal:2.0.8:39:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from com.onesignal:OneSignal:2.0.8:40:17
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:40:25
+category#${manifestApplicationId}
+ADDED from com.onesignal:OneSignal:2.0.8:42:17
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:42:27
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from com.onesignal:OneSignal:2.0.8:45:9
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:45:19
+service#com.onesignal.GcmIntentService
+ADDED from com.onesignal:OneSignal:2.0.8:47:9
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:47:18
+service#com.onesignal.SyncService
+ADDED from com.onesignal:OneSignal:2.0.8:48:9
+	android:stopWithTask
+		ADDED from com.onesignal:OneSignal:2.0.8:50:13
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:49:13
+activity#com.onesignal.PermissionsActivity
+ADDED from com.onesignal:OneSignal:2.0.8:52:9
+	android:theme
+		ADDED from com.onesignal:OneSignal:2.0.8:54:13
+	android:name
+		ADDED from com.onesignal:OneSignal:2.0.8:53:13
+meta-data#com.google.android.gms.version
+ADDED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+MERGED from com.google.android.gms:play-services-basement:8.4.0:21:9
+	android:name
+		ADDED from com.google.android.gms:play-services-basement:8.4.0:22:13
+	android:value
+		ADDED from com.google.android.gms:play-services-basement:8.4.0:23:13
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from com.google.android.gms:play-services-measurement:8.4.0:28:7
+	android:exported
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:31:11
+	android:authorities
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:29:11
+	android:name
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:30:11
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from com.google.android.gms:play-services-measurement:8.4.0:33:7
+	android:enabled
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:35:11
+	android:name
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:34:11
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from com.google.android.gms:play-services-measurement:8.4.0:36:9
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from com.google.android.gms:play-services-measurement:8.4.0:37:11
+	android:name
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:37:19
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from com.google.android.gms:play-services-measurement:8.4.0:41:7
+	android:exported
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:44:11
+	android:enabled
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:43:11
+	android:name
+		ADDED from com.google.android.gms:play-services-measurement:8.4.0:42:11
+uses-feature#0x00020000
+ADDED from com.google.android.gms:play-services-maps:8.4.0:22:5
+	android:required
+		ADDED from com.google.android.gms:play-services-maps:8.4.0:24:8
+	android:glEsVersion
+		ADDED from com.google.android.gms:play-services-maps:8.4.0:23:8
