@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/pre-dexed/debug/classes-bfabb8a73ad4dc4bcc066b720ea0e357db2f03ce.jar" />
+    </item>
+    <item
+        jar="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-97f275225cde8074f2bae37cc9de4ac9b86efb35.jar" />
+    </item>
+    <item
+        jar="/home/ggalia84/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-ce2dfff071b44b0baa5ca7245e95ef72781b204e.jar" />
+    </item>
+    <item
+        jar="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/pre-dexed/debug/classes-089a8157dcf66c61dcc01774299de51e5fc23287.jar" />
+    </item>
+    <item
+        jar="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3713f30726299231eddfb206043ebb72a2519b6f">
+        <dex dex="/home/ggalia84/AndroidStudioProjects/BasicNotifications/Application/build/intermediates/pre-dexed/debug/classes-220a36daffc127ef72503471c0235026ea44f7f9.jar" />
+    </item>
+
+</items>

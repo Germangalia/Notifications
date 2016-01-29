@@ -1,0 +1,6 @@
+.google/
+.gradle/
+.idea/
+gradle/
+settings.gradle
+
