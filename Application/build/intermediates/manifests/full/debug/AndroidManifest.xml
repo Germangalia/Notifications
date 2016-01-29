@@ -60,10 +60,10 @@
 
         <meta-data
             android:name="onesignal_app_id"
-            android:value="b2f7f966-d8cc-11e4-bed1-df8f05be55ba" />
+            android:value="60d7c430-7c02-4499-9140-3d0c6cba98f0" />
         <meta-data
             android:name="onesignal_google_project_number"
-            android:value="str:703322744261" />
+            android:value="str:279583205037" />
 
         <receiver
             android:name="com.onesignal.GcmBroadcastReceiver"

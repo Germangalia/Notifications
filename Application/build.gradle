@@ -42,7 +42,7 @@ android {
         targetSdkVersion 23
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
                                 onesignal_app_id: "60d7c430-7c02-4499-9140-3d0c6cba98f0",
-                                onesignal_google_project_number: "279583205037 "]
+                                onesignal_google_project_number: "279583205037"]
     }
 
     compileOptions {
